@@ -1,0 +1,36 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemailer": "^7.0.6",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.5.2",
+    "@types/node-telegram-bot-api": "^0.64.11",
+    "@types/nodemailer": "^7.0.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.9.2"
+  }
+}
